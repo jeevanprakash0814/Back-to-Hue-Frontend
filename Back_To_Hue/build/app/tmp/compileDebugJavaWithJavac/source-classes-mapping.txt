@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/example/back_to_hue/BuildConfig.java
+ com.example.back_to_hue.BuildConfig

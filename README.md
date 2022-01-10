@@ -9,3 +9,8 @@ First Draft:
 Technical Part:
 Flutter, follow steps on this link: https://codelabs.developers.google.com/codelabs/google-maps-in-flutter#1
 Ask for help to install if we need
+
+Week Jan 10-17 Tasks:
+-Make map a black/white map
+-Remove office points and find how locations are saved in the API
+-(this part works together a bit with last part) Develop a way to create custom points

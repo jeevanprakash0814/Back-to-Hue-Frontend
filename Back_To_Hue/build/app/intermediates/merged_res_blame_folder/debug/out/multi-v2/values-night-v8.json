@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/leocui/StudioProjects/Back-to-Hue-Frontend/Back_To_Hue/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "C:\\Users\\Gideon\\Documents\\GitHub\\Back-to-Hue-Frontend\\Back_To_Hue\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/leocui/StudioProjects/Back-to-Hue-Frontend/Back_To_Hue/android/app/src/main/res/values-night/styles.xml",
+                    "source": "C:\\Users\\Gideon\\Documents\\GitHub\\Back-to-Hue-Frontend\\Back_To_Hue\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

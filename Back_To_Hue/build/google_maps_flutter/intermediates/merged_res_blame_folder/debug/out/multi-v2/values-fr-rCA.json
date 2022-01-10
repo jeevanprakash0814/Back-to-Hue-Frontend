@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/leocui/StudioProjects/Back-to-Hue-Frontend/Back_To_Hue/build/google_maps_flutter/intermediates/incremental/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml",
+            "outputFile": "C:\\Users\\Gideon\\Documents\\GitHub\\Back-to-Hue-Frontend\\Back_To_Hue\\build\\google_maps_flutter\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr-rCA\\values-fr-rCA.xml",
             "map": [
                 {
-                    "source": "/Users/leocui/.gradle/caches/transforms-2/files-2.1/122df2e57d294d1a53db26bbc3b813c1/core-1.6.0/res/values-fr-rCA/values-fr-rCA.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "3006",
-                        "endColumns": "100",
-                        "endOffsets": "3102"
-                    }
-                },
-                {
-                    "source": "/Users/leocui/.gradle/caches/transforms-2/files-2.1/3679fa9be1d67d14c72169d3353f14d4/jetified-play-services-base-17.0.0/res/values-fr-rCA/values.xml",
+                    "source": "C:\\Users\\Gideon\\.gradle\\caches\\transforms-2\\files-2.1\\3679fa9be1d67d14c72169d3353f14d4\\jetified-play-services-base-17.0.0\\res\\values-fr-rCA\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "/Users/leocui/.gradle/caches/transforms-2/files-2.1/a7975ba3cb0c3630bd14453686890431/jetified-play-services-basement-17.0.0/res/values-fr-rCA/values.xml",
+                    "source": "C:\\Users\\Gideon\\.gradle\\caches\\transforms-2\\files-2.1\\122df2e57d294d1a53db26bbc3b813c1\\core-1.6.0\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "3006",
+                        "endColumns": "100",
+                        "endOffsets": "3102"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Gideon\\.gradle\\caches\\transforms-2\\files-2.1\\a7975ba3cb0c3630bd14453686890431\\jetified-play-services-basement-17.0.0\\res\\values-fr-rCA\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -57,27 +57,10 @@
             ]
         },
         {
-            "outputFile": "/Users/leocui/StudioProjects/Back-to-Hue-Frontend/Back_To_Hue/build/google_maps_flutter/intermediates/res/merged/debug/values-fr-rCA/values-fr-rCA.xml",
+            "outputFile": "C:\\Users\\Gideon\\Documents\\GitHub\\Back-to-Hue-Frontend\\Back_To_Hue\\build\\google_maps_flutter\\intermediates\\res\\merged\\debug\\values-fr-rCA\\values-fr-rCA.xml",
             "map": [
                 {
-                    "source": "/Users/leocui/.gradle/caches/transforms-2/files-2.1/122df2e57d294d1a53db26bbc3b813c1/core-1.6.0/res/values-fr-rCA/values-fr-rCA.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "3006",
-                        "endColumns": "100",
-                        "endOffsets": "3102"
-                    }
-                },
-                {
-                    "source": "/Users/leocui/.gradle/caches/transforms-2/files-2.1/3679fa9be1d67d14c72169d3353f14d4/jetified-play-services-base-17.0.0/res/values-fr-rCA/values.xml",
+                    "source": "C:\\Users\\Gideon\\.gradle\\caches\\transforms-2\\files-2.1\\3679fa9be1d67d14c72169d3353f14d4\\jetified-play-services-base-17.0.0\\res\\values-fr-rCA\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -94,7 +77,24 @@
                     }
                 },
                 {
-                    "source": "/Users/leocui/.gradle/caches/transforms-2/files-2.1/a7975ba3cb0c3630bd14453686890431/jetified-play-services-basement-17.0.0/res/values-fr-rCA/values.xml",
+                    "source": "C:\\Users\\Gideon\\.gradle\\caches\\transforms-2\\files-2.1\\122df2e57d294d1a53db26bbc3b813c1\\core-1.6.0\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "3006",
+                        "endColumns": "100",
+                        "endOffsets": "3102"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Gideon\\.gradle\\caches\\transforms-2\\files-2.1\\a7975ba3cb0c3630bd14453686890431\\jetified-play-services-basement-17.0.0\\res\\values-fr-rCA\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

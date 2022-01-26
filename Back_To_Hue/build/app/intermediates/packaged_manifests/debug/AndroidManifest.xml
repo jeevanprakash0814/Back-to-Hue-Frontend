@@ -69,13 +69,7 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
-
-        <uses-library
-            android:name="androidx.window.extensions"
-            android:required="false" />
-        <uses-library
-            android:name="androidx.window.sidecar"
-            android:required="false" /> <!-- Needs to be explicitly declared on P+ -->
+        <!-- Needs to be explicitly declared on P+ -->
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />

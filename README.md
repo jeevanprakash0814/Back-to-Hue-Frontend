@@ -7,14 +7,14 @@ Creating cross-platform solution to help keep individuals connected
 - Put down a point, save that point
 - Other things will be considered once finishing a solid first draft
 
-## Technical Part:
-Flutter, follow steps on this link: https://codelabs.developers.google.com/codelabs/google-maps-in-flutter#1
-Ask for help to install if we need
+## For Reference:
+Open source baseline: https://codelabs.developers.google.com/codelabs/google-maps-in-flutter#1
 
-## Week Jan 10-17 Tasks:
-- Make map a black/white map
-- Remove office points and find how locations are saved in the API
-- (this part works together a bit with last part) Develop a way to create custom points
+## Week Feb 2-9-16 Tasks:
+- 1. Have a button to go into point setting mode - Jeevan
+- 2. Making a custom point on a map. (Eventually: save to json, and retrieve) - Gideon
+- 3. Contact system, kinda like creating a new contact. (eventually add ability to edit contacts) - Leo
+
 
 ## Future Ideas:
 - Have user profiles that can be linked to your phone number

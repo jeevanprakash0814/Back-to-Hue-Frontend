@@ -1,4 +1,0 @@
-#Sun Jan 09 18:01:41 EST 2022
-base.0=C\:\\Users\\Gideon\\Documents\\GitHub\\Back-to-Hue-Frontend\\Back_To_Hue\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
-renamed.0=classes.dex
-path.0=classes.dex

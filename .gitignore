@@ -1,4 +1,0 @@
-# Ignore unecessary files
-.flutter-plugins
-.packages
-build/

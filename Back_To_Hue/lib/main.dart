@@ -1,3 +1,4 @@
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'src/locations.dart' as locations;
@@ -18,7 +19,7 @@ class _MyAppState extends State<MyApp> {
   //created controller and isMapCreated variables
   late GoogleMapController _controller;
   bool isMapCreated = false;
-  int _count = 0;
+  int count = 0;
 
   final Map<String, Marker> _markers = {};
   Future<void> _onMapCreated(GoogleMapController controller) async {
@@ -87,17 +88,20 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Back To Hue: pressed button $_count times'),
+          title: Text('Back To Hue: pressed button $count times'),
           backgroundColor: Colors.blueAccent[700],
         ),
         floatingActionButton: FloatingActionButton(
-          onPressed: () => setState(() {}),
+          onPressed: () => setState(() {
+            count++;
+          }),
           tooltip: 'Increment Counter',
           child: const Icon(Icons.add),
         ),
         body: GoogleMap(
           //edited here for new style
           onMapCreated: _onMapCreated,
+          zoomControlsEnabled: false,
           // onMapCreated: _onMapCreated,
           initialCameraPosition: const CameraPosition(
             target: LatLng(0, 0),

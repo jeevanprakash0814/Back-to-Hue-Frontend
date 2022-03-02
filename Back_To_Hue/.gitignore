@@ -3,5 +3,6 @@
 .packages
 build/
 .flutter-plugins-dependencies
-../.idea/
+../.idea/workspace.xml
+../.idea/usage.statistics.xml
 .dart_tool/flutter_build

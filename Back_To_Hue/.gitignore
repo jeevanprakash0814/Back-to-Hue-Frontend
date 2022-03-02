@@ -6,3 +6,5 @@ build/
 ../.idea/workspace.xml
 ../.idea/usage.statistics.xml
 .dart_tool/flutter_build
+../.idea/libraries/
+*.iml

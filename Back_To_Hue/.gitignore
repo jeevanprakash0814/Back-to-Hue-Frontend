@@ -1,0 +1,15 @@
+# Ignore unecessary files
+.flutter-plugins
+.packages
+build/
+.flutter-plugins-dependencies
+../.idea/workspace.xml
+../.idea/usage.statistics.xml
+../.idea/libraries/
+*.iml
+.DS_Store
+.dart_tool/
+.dart_tool/flutter_build
+.pub/
+
+pubspec.lock

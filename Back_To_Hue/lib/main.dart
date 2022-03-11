@@ -136,7 +136,11 @@ class _MyAppState extends State<MyApp> {
             target: LatLng(0, 0),
             zoom: 2,
           ),
-          // markers: _markers.values.toSet(),
+          markers: _markers.values.toSet(),
+          onTap: (LatLng latLng) {
+            _markers["mark"] = (Marker(markerId: MarkerId('mark'), position: latLng));
+            setState(() {});
+          },
         ),
       ),
     );

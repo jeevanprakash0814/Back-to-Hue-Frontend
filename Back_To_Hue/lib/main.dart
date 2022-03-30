@@ -138,7 +138,7 @@ class _MyAppState extends State<MyApp> {
           ),
           markers: _markers.values.toSet(),
           onTap: (LatLng latLng) {
-            _markers["mark"] = (Marker(markerId: MarkerId('mark'), position: latLng));
+            _markers[DateTime.now().toString()] = (Marker(markerId: MarkerId(DateTime.now().toString()), position: latLng));  //using DateTime to generate new key, will change in future for unique key
             setState(() {});
           },
         ),

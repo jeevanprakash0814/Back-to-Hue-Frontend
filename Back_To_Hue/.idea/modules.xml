@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Back_To_Hue.iml" filepath="$PROJECT_DIR$/.idea/Back_To_Hue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/back_to_hue_android.iml" filepath="$PROJECT_DIR$/android/back_to_hue_android.iml" />
     </modules>
   </component>
 </project>

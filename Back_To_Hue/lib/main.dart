@@ -3,9 +3,21 @@ import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'src/locations.dart' as locations;
 import 'package:flutter/services.dart';
+import 'package:flutter_contacts/flutter_contacts.dart';
+import 'pages/contacts_viewer.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    MaterialApp(
+      title: 'Back to Hue',
+      // Navigation
+      initialRoute: '/',
+      routes: {
+        '/': (context) => const MyApp(),
+        '/contactsViewer': (context) => ContactsViewer(),
+      },
+    ),
+  );
 }
 
 class MyApp extends StatefulWidget {
@@ -44,24 +56,7 @@ class _MyAppState extends State<MyApp> {
       }
     });
   }
-  // final Map<String, Marker> _markers = {};
-  // Future<void> _onMapCreated(GoogleMapController controller) async {
-  //   final googleOffices = await locations.getGoogleOffices();
-  //   setState(() {
-  //     _markers.clear();
-  //     for (final office in googleOffices.offices) {
-  //       final marker = Marker(
-  //         markerId: MarkerId(office.name),
-  //         position: LatLng(office.lat, office.lng),
-  //         infoWindow: InfoWindow(
-  //           title: office.name,
-  //           snippet: office.address,
-  //         ),
-  //       );
-  //       _markers[office.name] = marker;
-  //     }
-  //   });
-  // }
+
 
   //Neccessary helper functions to read Json and change map style
   @override
@@ -88,8 +83,26 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Back To Hue: pressed button $count times'),
-          backgroundColor: Colors.blueAccent[700],
+            title: Text('Back To Hue: pressed button $count times'),
+            flexibleSpace: Container(
+              decoration: const BoxDecoration(
+                  gradient: LinearGradient(
+                      begin: Alignment.topLeft,
+                      end: Alignment.bottomRight,
+                      colors: <Color>[
+                        Colors.white,
+                        Colors.blue
+                      ])
+              ),
+            ),
+            actions: <Widget>[
+              ElevatedButton(
+                child: const Text('Contacts'),
+                onPressed: () {
+                  Navigator.pushNamed(context, '/contactsViewer');
+                },
+              ),
+            ]
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () => setState(() {
@@ -107,7 +120,7 @@ class _MyAppState extends State<MyApp> {
             target: LatLng(0, 0),
             zoom: 2,
           ),
-          // markers: _markers.values.toSet(),
+          markers: _markers.values.toSet(),
         ),
       ),
     );

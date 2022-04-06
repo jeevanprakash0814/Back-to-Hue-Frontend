@@ -20,7 +20,7 @@
 *.iml
 *.ipr
 *.iws
-.idea/
+../.idea/
 
 # Visual Studio Code related
 .vscode/
@@ -32,7 +32,7 @@
 .packages
 .pub-cache/
 .pub/
-/build/
+build/
 
 # Android related
 **/android/**/gradle-wrapper.jar
